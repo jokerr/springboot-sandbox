@@ -1,0 +1,16 @@
+allprojects {
+    group 'io.jokerr.springboot'
+    version '0.1.0-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+}
