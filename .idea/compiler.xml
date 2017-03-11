@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="rest-app_main" target="1.8" />
       <module name="rest-app_test" target="1.8" />
+      <module name="robot-master-common_main" target="1.8" />
+      <module name="robot-master-common_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
