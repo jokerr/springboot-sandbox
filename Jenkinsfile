@@ -1,18 +1,13 @@
 
 node {
     stage('Build') {
-        steps {
-            echo 'Building..'
-        }
+        checkout scm
+        echo 'Building..'
     }
     stage('Test') {
-        steps {
-            echo 'Testing..'
-        }
+        echo 'Testing..'
     }
     stage('Deploy') {
-        steps {
-            echo 'Deploying....'
-        }
-    }
+        echo 'Deploying....'
+    }s
 }
