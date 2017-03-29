@@ -4,4 +4,7 @@ node {
 	stage("Testing") {
 		echo "I'm a stage"
 	}
+	stage("Done") {
+		echo "goodbye!"
+	}
 }
