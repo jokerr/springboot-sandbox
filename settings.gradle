@@ -1,3 +1,4 @@
 rootProject.name = 'sandbox'
 include 'rest-app'
+include 'robot-master-common'
 
