@@ -1,7 +1,7 @@
 node {
 	echo "hello world"
 
-	stage("Testing) {
+	stage("Testing") {
 		echo "I'm a stage"
 	}
 }
